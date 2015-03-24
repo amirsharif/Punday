@@ -54,4 +54,4 @@ def TimedPinger(secondsBtwnChecks, previous=previousClue):
         time.sleep(secondsBtwnChecks)
 
 
-TimedPinger(30)
+print getAllThePuns(getLatestPun(),1)
