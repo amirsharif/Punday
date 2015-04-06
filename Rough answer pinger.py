@@ -42,3 +42,6 @@ except:
         print 'Zumba' , datetime.datetime.now()
     except:
         print 'oops'
+        
+        
+        
