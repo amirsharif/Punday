@@ -8,7 +8,7 @@ class Answers(object):
         print datetime.datetime.now()
     
     def getAnswers(self):
-        rawfile = open('/Users/amirsharif/Punday/output-final.txt')
+        rawfile = open('C:/Users/asharif/Documents/GitHub/Punday/output-final.txt')
         rawread = rawfile.readlines()
         wordslist = []
         for line in rawread:
